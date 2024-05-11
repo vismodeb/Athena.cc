@@ -1,6 +1,5 @@
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sora:wght@100..800&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sora:wght@100..800&display=swap");
 
 /* Default Css 
 **************vismo*/
@@ -20,21 +19,29 @@ body {
   font-size: 14px;
   font-weight: 400;
   background: #000000;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   padding: 0;
   margin: 0;
 }
 
-ul, ol {
+ul,
+ol {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-a,a:hover{
+a,
+a:hover {
   text-decoration: none;
 }
 
@@ -42,28 +49,28 @@ img {
   width: 100%;
 }
 
-button{
+button {
   border: none;
 }
 
-.text_22{
+.text_22 {
   font-size: 22px;
   color: rgb(26 26 26);
 }
 
-.text_26{
+.text_26 {
   font-size: 26px;
   color: rgb(26 26 26);
   font-weight: 300;
 }
 
-.text_24{
+.text_24 {
   font-size: 22px;
   color: rgb(26 26 26);
   font-weight: 300;
 }
 
-.text_34{
+.text_34 {
   font-size: 34px;
   font-weight: 500;
   line-height: 45px;
@@ -71,11 +78,11 @@ button{
   color: rgb(26 26 26);
 }
 
-.horizontalCard_btn h4{
+.horizontalCard_btn h4 {
   font-size: 20px;
 }
 
-.btn1{
+.btn1 {
   margin-top: 36px;
   width: 70%;
   padding: 18px 4px;
@@ -86,40 +93,40 @@ button{
   border-radius: 5px;
 }
 
-.btn2{
+.btn2 {
   width: 40%;
 }
 
-.btn1:hover{
+.btn1:hover {
   background: #f3b346;
 }
 
 /* Start : main header 
 ******************************/
-.main-header-area{
+.main-header-area {
   padding: 26px 0;
   /* background: #1a1a1a; */
 }
-.header-area{
+.header-area {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.headerLogo h2{
+.headerLogo h2 {
   font-size: 38px;
   color: #ffffff;
   font-weight: 600;
 }
-.menu{
+.menu {
   display: flex;
   align-items: center;
 }
-.menu nav ul{
+.menu nav ul {
   display: flex;
   align-items: center;
   gap: 20px;
 }
-.menu nav ul li a{
+.menu nav ul li a {
   color: #ffffff;
   font-size: 16px;
   font-weight: 600;
@@ -127,7 +134,7 @@ button{
   position: relative;
   z-index: 1;
 }
-.menu nav ul li a::after{
+.menu nav ul li a::after {
   content: "";
   position: absolute;
   width: 0;
@@ -138,7 +145,7 @@ button{
   transition: 0.5s;
   z-index: -1;
 }
-.menu nav ul li a::before{
+.menu nav ul li a::before {
   content: "";
   position: absolute;
   width: 0;
@@ -149,17 +156,339 @@ button{
   transition: 0.5s;
   z-index: -1;
 }
-.menu nav ul li a:hover::after{
+.menu nav ul li a:hover::after {
   width: 50%;
   left: 0;
 }
-.menu nav ul li a:hover::before{
+.menu nav ul li a:hover::before {
   width: 50%;
   right: 0;
 }
-.menu nav ul li a:hover{
+.menu nav ul li a:hover {
   color: #dcdcdc;
 }
-.menu-bar{
+.menu-bar {
   display: none;
 }
+
+/* banner section starts here */
+
+.bannerSection {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  color: white;
+  font-weight: 500;
+  padding-top: 208px;
+}
+
+.bannerSection h4 {
+  font-size: 84px;
+}
+
+.gradientTextSecondary {
+  font-size: 80px;
+  background: -webkit-linear-gradient(left, #ffffff, #a66464);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bannerSection h2 {
+  font-size: 120px;
+}
+.bannerSection p {
+  font-size: 28px;
+  padding-top: 22px;
+  padding-bottom: 57px;
+}
+.gradientBg {
+  background: linear-gradient(to right, #ffffff, #5878cb) !important;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+  gap: 15px;
+}
+.bannerSection button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 82px;
+  padding: 19px 0;
+  width: 283px;
+  color: black;
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0 10px;
+  background: white;
+  border-radius: 40px;
+}
+
+.telIcon {
+  font-size: 22px;
+}
+.arrowIcon {
+  font-size: 20px;
+  padding: 12px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+/* banner section ends here */
+/* service section starts here */
+.serviceSection {
+  padding: 280px 0 243px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 36px;
+}
+/* service section ends here */
+/* superior data section starts here */
+.superiorDataSection {
+  color: white;
+  text-align: center;
+}
+.superiorDataSection div h4 {
+  font-size: 80px;
+  font-weight: 500;
+}
+.superiorDataSection div span {
+  background: -webkit-linear-gradient(left, #a66464, #5878cb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.superiorDataSection div p {
+  font-size: 28px;
+  font-weight: 400;
+  padding-top: 17px;
+  padding-bottom: 52px;
+}
+.pipelineSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 177px 66px;
+}
+/* superior data section ends here */
+/* project features section ends here */
+.projectFeaturesSection {
+  color: white;
+}
+.projectFeaturesSection h2 {
+  font-size: 70px;
+  font-weight: 500;
+  padding-bottom: 45px;
+}
+.gridSection {
+  display: grid;
+  gap: 47px;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.gridSection div {
+  background: linear-gradient(to right, #45517c, #171c2e) !important;
+  padding: 197px 20px 33px 48px;
+  border-radius: 25px;
+}
+.gridSection div h4 {
+  font-size: 42px;
+  font-weight: 500;
+  padding-bottom: 16px;
+  line-height: 51px;
+}
+.gridSection div p {
+  font-size: 28px;
+  line-height: 33px;
+}
+
+/* First and last items span 3 columns */
+.gridSection > :first-child,
+.gridSection > :last-child {
+  grid-column: span 3;
+}
+
+/* Other items span 2 columns */
+.gridSection > :not(:first-child):not(:last-child) {
+  grid-column: span 2;
+}
+
+/* project features section ends here */
+/* token section starts here */
+.tokenSection {
+  padding: 351px 0 223px 0;
+}
+.tokenDiv {
+  width: 60%;
+  color: white;
+}
+.tokenSection div h3 {
+  font-size: 84px;
+  font-weight: 500;
+  line-height: 103px;
+}
+.tokenText {
+  background: -webkit-linear-gradient(left, #a66464, #5878cb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.summary {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 33px;
+  padding-top: 38px;
+  padding-bottom: 56px;
+}
+.tokenContract {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 36px;
+}
+.tokenNumber {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  padding: 17px 0 77px 0;
+}
+.supplyCount {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 91px 20px;
+}
+.supplyCount div p {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57px;
+  padding-top: 10px;
+}
+.toolsButtons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 31px;
+}
+.toolsButtons div {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 29px;
+  background: linear-gradient(to right, #a66464, #2a3960) !important;
+  border-radius: 15px;
+  padding: 23px 31px;
+}
+.toolsButtons div img {
+  width: 42px;
+}
+.toolsButtons div p {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 40px;
+}
+.uniswapBtn {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: start;
+  gap: 190px;
+  width: 100%;
+  background: linear-gradient(to right, #a66464, #2a3960) !important;
+  border-radius: 15px;
+  padding: 23px 31px;
+  margin: 38px 0 62px 0;
+}
+.uniswapBtn img {
+  width: 42px;
+}
+.uniswapBtn p {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.lpLock {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+}
+
+/* token section ends here */
+/* roadmap section starts here */
+.roadmapSection {
+  color: white;
+}
+.roadmapSection h2 {
+  font-size: 84px;
+  font-weight: 500;
+  line-height: 103px;
+  padding-bottom: 199px;
+}
+.phases {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+.phases div p {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 40px;
+  padding: 20px 0;
+}
+.phases div ul {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 33px;
+}
+.phases div ul li {
+  padding-top: 10px;
+}
+
+/* roadmap section ends here */
+/* athena footer section starts here */
+.athenaFooter {
+  color: white;
+  padding: 186px 0 285px 0;
+}
+.athenaFlexDiv {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 10px;
+}
+.flexedItem {
+  width: 25%;
+}
+.flexedItem p {
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 40px;
+  padding-top: 23px;
+}
+.athenaTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.athenaTitle img {
+  width: 48px;
+}
+.athenaTitle p {
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 73px;
+}
+
+/* athena footer section ends here */
