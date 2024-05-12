@@ -124,12 +124,12 @@ button {
 .menu nav ul {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 40px;
 }
 .menu nav ul li a {
   color: #ffffff;
-  font-size: 24px;
-  font-weight: 700;
+  font-size: 18px;
+  font-weight: 600;
   line-height: 28px;
   display: inline-block;
   position: relative;
@@ -185,20 +185,20 @@ button {
 }
 
 .bannerSection h4 {
-  font-size: 84px;
+  font-size: 62px;
 }
 
 .gradientTextSecondary {
-  font-size: 80px;
+  font-size: 52px;
   background: -webkit-linear-gradient(left, #ffffff, #a66464);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .bannerSection h2 {
-  font-size: 120px;
+  font-size: 92px;
 }
 .bannerSection p {
-  font-size: 28px;
+  font-size: 20px;
   padding-top: 22px;
   padding-bottom: 57px;
 }
@@ -241,7 +241,7 @@ button {
 /* banner section ends here */
 /* service section starts here */
 .serviceSection {
-  padding: 280px 0 243px 0;
+  padding: 200px 0 180px 0;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -255,7 +255,10 @@ button {
   text-align: center;
 }
 .superiorDataSection div h4 {
-  font-size: 80px;
+  max-width: 900px;
+  margin: auto;
+  font-size: 60px;
+  line-height: 80px;
   font-weight: 500;
 }
 .superiorDataSection div span {
@@ -264,7 +267,10 @@ button {
   -webkit-text-fill-color: transparent;
 }
 .superiorDataSection div p {
-  font-size: 28px;
+  max-width: 800px;
+  margin: auto;
+  font-size: 32px;
+  line-height: 32px;
   font-weight: 400;
   padding-top: 17px;
   padding-bottom: 52px;
@@ -282,7 +288,7 @@ button {
   color: white;
 }
 .projectFeaturesSection h2 {
-  font-size: 70px;
+  font-size: 62px;
   font-weight: 500;
   padding-bottom: 45px;
 }
@@ -298,13 +304,13 @@ button {
   border-radius: 25px;
 }
 .gridSection div h4 {
-  font-size: 42px;
+  font-size: 36px;
   font-weight: 500;
   padding-bottom: 16px;
   line-height: 51px;
 }
 .gridSection div p {
-  font-size: 28px;
+  font-size: 22px;
   line-height: 33px;
 }
 
@@ -322,14 +328,14 @@ button {
 /* project features section ends here */
 /* token section starts here */
 .tokenSection {
-  padding: 351px 0 223px 0;
+  padding: 251px 0 200px 0;
 }
 .tokenDiv {
   width: 60%;
   color: white;
 }
 .tokenSection div h3 {
-  font-size: 84px;
+  font-size: 62px;
   font-weight: 500;
   line-height: 103px;
 }
@@ -339,19 +345,19 @@ button {
   -webkit-text-fill-color: transparent;
 }
 .summary {
-  font-size: 28px;
+  font-size: 22px;
   font-weight: 400;
   line-height: 33px;
   padding-top: 38px;
   padding-bottom: 56px;
 }
 .tokenContract {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 500;
   line-height: 36px;
 }
 .tokenNumber {
-  font-size: 30px;
+  font-size: 26px;
   font-weight: 700;
   line-height: 36px;
   padding: 17px 0 77px 0;
@@ -365,7 +371,7 @@ button {
   padding: 91px 20px;
 }
 .supplyCount div p {
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 57px;
   padding-top: 10px;
@@ -391,7 +397,7 @@ button {
   width: 42px;
 }
 .toolsButtons div p {
-  font-size: 34px;
+  font-size: 30px;
   font-weight: 700;
   line-height: 40px;
 }
@@ -411,13 +417,13 @@ button {
   width: 42px;
 }
 .uniswapBtn p {
-  font-size: 34px;
+  font-size: 30px;
   font-weight: 700;
   line-height: 40px;
 }
 
 .lpLock {
-  font-size: 30px;
+  font-size: 26px;
   font-weight: 700;
   line-height: 36px;
   text-align: center;
@@ -429,10 +435,10 @@ button {
   color: white;
 }
 .roadmapSection h2 {
-  font-size: 84px;
+  font-size: 66px;
   font-weight: 500;
   line-height: 103px;
-  padding-bottom: 199px;
+  padding-bottom: 122px;
 }
 .phases {
   display: flex;
@@ -442,13 +448,13 @@ button {
   gap: 50px;
 }
 .phases div p {
-  font-size: 34px;
+  font-size: 28px;
   font-weight: 700;
   line-height: 40px;
   padding: 20px 0;
 }
 .phases div ul {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 400;
   line-height: 33px;
 }
@@ -460,7 +466,7 @@ button {
 /* athena footer section starts here */
 .athenaFooter {
   color: white;
-  padding: 186px 0 285px 0;
+  padding: 146px 0 185px 0;
 }
 .athenaFlexDiv {
   display: flex;
@@ -473,11 +479,17 @@ button {
 }
 .flexedItem p {
   font-weight: 400;
-  font-size: 34px;
+  font-size: 24px;
   line-height: 40px;
-  padding-top: 23px;
+  padding-top: 30px;
 }
-.athenaTitle {
+.flexedItem span {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  color: #ffffff;
+}
+.athenaTitle a {
   display: flex;
   align-items: center;
   justify-content: start;
@@ -488,20 +500,20 @@ button {
 }
 .athenaTitle p {
   font-weight: 500;
-  font-size: 60px;
+  font-size: 52px;
   line-height: 73px;
   color: white;
 }
 .LinksDiv h4 {
-  font-size: 38px;
+  font-size: 24px;
   font-weight: 700;
   line-height: 45px;
 }
 .LinksDiv p {
-  padding-top: 35px;
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 28px;
+  padding-top: 30px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 16px;
 }
 
 /* athena footer section ends here */

@@ -1,3 +1,158 @@
+@media all and (max-width: 1200px){
+  .athenaTitle img {
+    width: 44px;
+  }
+  .athenaTitle p {
+    font-size: 46px;
+  }
+  .gradientTextSecondary,
+  .bannerSection h4 {
+    font-size: 56px;
+  }
+  .bannerSection h2 {
+    font-size: 82px;
+  }
+  .bannerSection button {
+    gap: 56px;
+    padding: 16px 0;
+    width: 266px;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .arrowIcon {
+    font-size: 20px;
+    padding: 8px 10px;
+    background-color: white;
+    border-radius: 50%;
+  }
+  .serviceSection {
+    padding: 128px 0 122px 0;
+  }
+  .superiorDataSection div h4 {
+    max-width: 800px;
+    margin: auto;
+    font-size: 52px;
+    line-height: 70px;
+    font-weight: 500;
+  }
+  .superiorDataSection div p {
+    font-size: 22px;
+    padding-bottom: 52px;
+  }
+  .pipelineSection {
+    padding: 120px 60px;
+  }
+  .projectFeaturesSection h2 {
+    font-size: 54px;
+  }
+  .gridSection div {
+    padding: 168px 30px 33px 36px;
+  }
+  .gridSection div h4 {
+    font-size: 30px;
+    line-height: 42px;
+  }
+  .gridSection div p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .tokenSection {
+    padding: 151px 0 100px 0;
+  }
+  .tokenSection div h3 {
+    font-size: 54px;
+    line-height: 74px;
+  }
+  .summary {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  .tokenNumber {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 20px;
+    padding: 15px 0 20px 0;
+  }
+  .tokenContract {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .supplyCount div p {
+    font-size: 34px;
+    line-height: 44px;
+    padding-top: 8px;
+  }
+  .toolsButtons div {
+    width: 50%;
+    gap: 12px;
+    padding: 20px 16px;
+  }
+  .toolsButtons {
+    gap: 22px;
+  }
+  .toolsButtons div p {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+  .toolsButtons div img {
+    width: 36px;
+  }
+  .uniswapBtn p {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .uniswapBtn {
+    gap: 100px;
+    border-radius: 15px;
+    padding: 20px 30px;
+    margin: 30px 0 46px 0;
+  }
+  .lpLock {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .roadmapSection h2 {
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 72px;
+    padding-bottom: 80px;
+  }
+  .phases div p {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30px;
+    padding: 16px 0;
+  }
+  .phases div ul {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  .athenaFooter {
+    padding: 118px 0 150px 0;
+  }
+  .flexedItem p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 26px;
+  }
+  .LinksDiv h4 {
+    font-size: 20px;
+    line-height: 42px;
+  }
+  .LinksDiv p {
+    padding-top: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 10px;
+  }
+}
+
 @media all and (min-width: 992px){
   .menu {
       display: flex !important;
@@ -8,9 +163,9 @@
 }
   
 @media all and (max-width: 991px) {
-  .container{
+  /* .container{
     padding: 0 15px;
-  }
+  } */
   .headerLogo h2 {
     font-size: 32px;
   }
@@ -113,10 +268,147 @@
     top: 18px;
     left: 2px;
   }
-  
+  .bannerSection {
+    padding-top: 140px;
+  }
+  .gradientTextSecondary, .bannerSection h4 {
+    font-size: 48px;
+  }
+  .bannerSection h2 {
+    font-size: 60px;
+  }
+  .bannerSection p {
+    font-size: 16px;
+    padding-bottom: 52px;
+  }
+  .bannerSection button {
+    gap: 50px;
+    padding: 14px 0;
+    width: 266px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .superiorDataSection div h4 {
+    max-width: 653px;
+    font-size: 42px;
+    line-height: 60px;
+  }
+  .superiorDataSection div p {
+    font-size: 20px;
+    padding-bottom: 50px;
+  }
+  .pipelineSection {
+    padding: 80px 60px;
+  }
+  .projectFeaturesSection h2 {
+    font-size: 42px;
+  }
+  .gridSection div h4 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .gridSection div p {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .tokenSection div h3 {
+    font-size: 42px;
+    line-height: 54px;
+  }
+  .tokenSection {
+    padding: 110px 0 80px 0;
+  }
+  .summary {
+    font-size: 18px;
+    line-height: 26px;
+    padding: 14px 0 32px 0;
+  }
+  .tokenContract {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .tokenNumber {
+    font-size: 20px;
+    line-height: 20px;
+    padding: 15px 0;
+  }
+  .tokenDiv {
+    width: 100%;
+    color: white;
+  }
+  .supplyCount div p {
+    font-size: 30px;
+    line-height: 40px;
+    padding-top: 8px;
+  }
+  .supplyCount {
+    padding: 66px 0;
+  }
+  .toolsButtons div p {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+  }
+  .toolsButtons div img {
+    width: 32px;
+  }
+  .uniswapBtn p {
+    font-size: 24px;
+  }
+  .uniswapBtn img {
+    width: 36px;
+  }
+  .uniswapBtn {
+    gap: 177px;
+  }
+  .lpLock {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .roadmapSection h2 {
+    font-size: 46px;
+    font-weight: 500;
+    line-height: 60px;
+    padding-bottom: 40px;
+  }
+  .gradientTextSecondary, .bannerSection h4 {
+    font-size: 40px;
+  }
+  .phases div p {
+    font-size: 22px;
+  }
+  .phases div ul {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+  }
+  .athenaFooter {
+    padding: 120px 0;
+  }
+  .flexedItem span {
+    font-size: 32px;
+  }
+  .LinksDiv h4 {
+    font-size: 18px;
+  }
+  .flexedItem p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    padding-top: 16px;
+  }
+  .LinksDiv p {
+    padding-top: 10px;
+    font-size: 16px;
+    line-height: 26px;
+  }
 }
   
-@media all and (max-width: 767px) {}
+@media all and (max-width: 767px) {
+  .athenaTitle p {
+    font-size: 40px;
+  }
+}
   
 @media all and (max-width: 567px) {}
   
