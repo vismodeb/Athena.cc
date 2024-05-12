@@ -128,8 +128,9 @@ button {
 }
 .menu nav ul li a {
   color: #ffffff;
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
   display: inline-block;
   position: relative;
   z-index: 1;
@@ -468,7 +469,7 @@ button {
   gap: 10px;
 }
 .flexedItem {
-  width: 25%;
+  width: 35%;
 }
 .flexedItem p {
   font-weight: 400;
@@ -479,7 +480,7 @@ button {
 .athenaTitle {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   gap: 20px;
 }
 .athenaTitle img {
@@ -489,6 +490,18 @@ button {
   font-weight: 500;
   font-size: 60px;
   line-height: 73px;
+  color: white;
+}
+.LinksDiv h4 {
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 45px;
+}
+.LinksDiv p {
+  padding-top: 35px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
 }
 
 /* athena footer section ends here */
